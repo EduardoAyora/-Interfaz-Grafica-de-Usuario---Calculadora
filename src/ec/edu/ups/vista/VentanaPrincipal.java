@@ -12,12 +12,21 @@ package ec.edu.ups.vista;
  */
 public class VentanaPrincipal extends javax.swing.JFrame {
 
-   
+    private boolean primero;
+    private double num1;
+    private double num2;
+    private int opcion;
     /**
      * Creates new form VentanaPrincipal
      */
     public VentanaPrincipal() {
-
+        initComponents();
+        this.setLocationRelativeTo(null);
+        this.setResizable(false);
+        primero = true;
+        num1 = 0;
+        num2 = 0;
+        opcion = 0;
     }
 
     /**
