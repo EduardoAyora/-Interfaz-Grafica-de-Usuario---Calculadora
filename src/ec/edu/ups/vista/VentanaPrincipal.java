@@ -434,57 +434,57 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void btnNum0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum0ActionPerformed
         // TODO add your handling code here:
-      
+        txtResultado.setText(txtResultado.getText() + "0");
     }//GEN-LAST:event_btnNum0ActionPerformed
 
     private void btnNum1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum1ActionPerformed
         // TODO add your handling code here:
-       
+        txtResultado.setText(txtResultado.getText() + "1");
     }//GEN-LAST:event_btnNum1ActionPerformed
 
     private void btnNum2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum2ActionPerformed
         // TODO add your handling code here:
-        
+        txtResultado.setText(txtResultado.getText() + "2");
     }//GEN-LAST:event_btnNum2ActionPerformed
 
     private void btnNum3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum3ActionPerformed
         // TODO add your handling code here:
-        
+        txtResultado.setText(txtResultado.getText() + "3");
     }//GEN-LAST:event_btnNum3ActionPerformed
 
     private void btnNum4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum4ActionPerformed
         // TODO add your handling code here:
-        
+        txtResultado.setText(txtResultado.getText() + "4");
     }//GEN-LAST:event_btnNum4ActionPerformed
 
     private void btnNum5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum5ActionPerformed
         // TODO add your handling code here:
-        
+        txtResultado.setText(txtResultado.getText() + "5");
     }//GEN-LAST:event_btnNum5ActionPerformed
 
     private void btnNum6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum6ActionPerformed
         // TODO add your handling code here:
-        
+        txtResultado.setText(txtResultado.getText() + "6");
     }//GEN-LAST:event_btnNum6ActionPerformed
 
     private void btnNum7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum7ActionPerformed
         // TODO add your handling code here:
-      
+        txtResultado.setText(txtResultado.getText() + "7");
     }//GEN-LAST:event_btnNum7ActionPerformed
 
     private void btnNum8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum8ActionPerformed
         // TODO add your handling code here:
-       
+        txtResultado.setText(txtResultado.getText() + "8");
     }//GEN-LAST:event_btnNum8ActionPerformed
 
     private void btnNum9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum9ActionPerformed
         // TODO add your handling code here:
-        
+        txtResultado.setText(txtResultado.getText() + "9");
     }//GEN-LAST:event_btnNum9ActionPerformed
 
     private void btnPuntoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPuntoActionPerformed
         // TODO add your handling code here:
-        
+        txtResultado.setText(txtResultado.getText() + ".");
     }//GEN-LAST:event_btnPuntoActionPerformed
 
     private void btnBorrarNumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBorrarNumActionPerformed
