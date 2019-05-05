@@ -601,19 +601,37 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void btnRaizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRaizActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            double res = Double.parseDouble(txtResultado.getText());
+            res = Math.sqrt(res);
+            txtResultado.setText(String.valueOf(res));
+        }catch(java.lang.NumberFormatException ex){
+            
+        }
         
     }//GEN-LAST:event_btnRaizActionPerformed
 
     private void btnPorcentajeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPorcentajeActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            double res = Double.parseDouble(txtResultado.getText());
+            res = num1 * (res / 100);
+            txtResultado.setText(String.valueOf(res));
+        }catch(java.lang.NumberFormatException ex){
+            
+        }
 
     }//GEN-LAST:event_btnPorcentajeActionPerformed
 
     private void btnSobreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSobreActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            double res = Double.parseDouble(txtResultado.getText());
+            res = 1 / res;
+            txtResultado.setText(String.valueOf(res));
+        }catch(java.lang.NumberFormatException ex){
+            
+        }
         
     }//GEN-LAST:event_btnSobreActionPerformed
 
