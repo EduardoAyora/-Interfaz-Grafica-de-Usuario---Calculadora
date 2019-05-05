@@ -513,25 +513,89 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void btnDividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDividirActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            if(primero){
+                num1 = Double.parseDouble(txtResultado.getText());
+                primero = false;
+                txtImprimir.setText(txtResultado.getText() + "/");
+                txtResultado.setText("");
+                opcion = 1;
+            }else{
+                num2 = Double.parseDouble(txtResultado.getText());
+                primero = true;
+                double res = num1 / num2;
+                txtImprimir.setText(String.valueOf(res));
+                txtResultado.setText(String.valueOf(res));
+            }
+        }catch(java.lang.NumberFormatException ex){
+            
+        }
         
     }//GEN-LAST:event_btnDividirActionPerformed
 
     private void btnMultiplicarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultiplicarActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            if(primero){
+                num1 = Double.parseDouble(txtResultado.getText());
+                primero = false;
+                txtImprimir.setText(txtResultado.getText() + "*");
+                txtResultado.setText("");
+                opcion = 2;
+            }else{
+                num2 = Double.parseDouble(txtResultado.getText());
+                primero = true;
+                double res = num1 * num2;
+                txtImprimir.setText(String.valueOf(res));
+                txtResultado.setText(String.valueOf(res));
+            }
+        }catch(java.lang.NumberFormatException ex){
+            
+        }
         
     }//GEN-LAST:event_btnMultiplicarActionPerformed
 
     private void btnRestaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRestaActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            if(primero){
+                num1 = Double.parseDouble(txtResultado.getText());
+                primero = false;
+                txtImprimir.setText(txtResultado.getText() + "-");
+                txtResultado.setText("");
+                opcion = 3;
+            }else{
+                num2 = Double.parseDouble(txtResultado.getText());
+                primero = true;
+                double res = num1 - num2;
+                txtImprimir.setText(String.valueOf(res));
+                txtResultado.setText(String.valueOf(res));
+            }
+        }catch(java.lang.NumberFormatException ex){
+            
+        }
         
     }//GEN-LAST:event_btnRestaActionPerformed
 
     private void btnSumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSumaActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            if(primero){
+                num1 = Double.parseDouble(txtResultado.getText());
+                primero = false;
+                txtImprimir.setText(txtResultado.getText() + "+");
+                txtResultado.setText("");
+                opcion = 4;
+            }else{
+                num2 = Double.parseDouble(txtResultado.getText());
+                primero = true;
+                double res = num1 + num2;
+                txtImprimir.setText(String.valueOf(res));
+                txtResultado.setText(String.valueOf(res));
+            }
+        }catch(java.lang.NumberFormatException ex){
+            
+        }
         
     }//GEN-LAST:event_btnSumaActionPerformed
 
