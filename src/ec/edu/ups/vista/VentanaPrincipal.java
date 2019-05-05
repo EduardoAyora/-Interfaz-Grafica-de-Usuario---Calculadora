@@ -420,12 +420,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void btnCeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCeActionPerformed
         // TODO add your handling code here:
-        
+        txtImprimir.setText("");
+        txtResultado.setText("");
+        primero = true;
     }//GEN-LAST:event_btnCeActionPerformed
 
     private void btnCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCActionPerformed
         // TODO add your handling code here:
-        
+        txtResultado.setText("");
     }//GEN-LAST:event_btnCActionPerformed
 
     private void txtResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtResultadoActionPerformed
@@ -489,7 +491,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void btnBorrarNumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBorrarNumActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            txtResultado.setText(txtResultado.getText().substring(0,txtResultado.getText().length() - 1));
+        }catch(java.lang.StringIndexOutOfBoundsException ex){
+        }
         
     }//GEN-LAST:event_btnBorrarNumActionPerformed
 
