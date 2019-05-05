@@ -637,7 +637,40 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            switch(opcion){
+            case 1:
+                num2 = Double.parseDouble(txtResultado.getText());
+                primero = true;
+                double res = num1 / num2;
+                txtResultado.setText(String.valueOf(res));
+                txtImprimir.setText(String.valueOf(res));
+                break;
+            case 2:
+                num2 = Double.parseDouble(txtResultado.getText());
+                primero = true;
+                res = num1 * num2;
+                txtResultado.setText(String.valueOf(res));
+                txtImprimir.setText(String.valueOf(res));
+                break;
+            case 3:
+                num2 = Double.parseDouble(txtResultado.getText());
+                primero = true;
+                res = num1 - num2;
+                txtResultado.setText(String.valueOf(res));
+                txtImprimir.setText(String.valueOf(res));
+                break;
+            case 4:
+                num2 = Double.parseDouble(txtResultado.getText());
+                primero = true;
+                res = num1 + num2;
+                txtResultado.setText(String.valueOf(res));
+                txtImprimir.setText(String.valueOf(res));
+                break;
+        }
+        }catch(java.lang.NumberFormatException ex){
+            
+        }
         
     }//GEN-LAST:event_btnIgualActionPerformed
 
