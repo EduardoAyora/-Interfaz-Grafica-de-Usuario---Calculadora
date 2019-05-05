@@ -500,7 +500,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void btnNegativoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNegativoActionPerformed
         // TODO add your handling code here:
-        
+        try{
+            if(txtResultado.getText().charAt(0) == '-'){
+                txtResultado.setText(txtResultado.getText().replace("-", ""));
+            }else{
+                txtResultado.setText("-" + txtResultado.getText());
+            }
+        }catch(java.lang.StringIndexOutOfBoundsException ex){
+        }
         
     }//GEN-LAST:event_btnNegativoActionPerformed
 
