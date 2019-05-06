@@ -7,8 +7,14 @@ package ec.edu.ups.vista;
 
 
 /**
+ * VentanaPrincipal.
  *
+ * Clase con interfaz gráfica.
+ *
+ * @version 1.2
+ * @since 2019
  * @author Eduardo Ayora
+ * @see http://ups.edu.ec
  */
 public class VentanaPrincipal extends javax.swing.JFrame {
 
