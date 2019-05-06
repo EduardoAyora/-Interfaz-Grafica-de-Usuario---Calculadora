@@ -17,7 +17,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private double num2;
     private int opcion;
     /**
-     * Creates new form VentanaPrincipal
+     * Constructor de la clase
+     * inicializa los atributos y posicion de la ventana
      */
     public VentanaPrincipal() {
         initComponents();
@@ -418,6 +419,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * btnCeActionPerformed
+     * Evento de accion cuando se presiona el botón de borrado
+     * @param evt evento al hacer clic
+     */
     private void btnCeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCeActionPerformed
         // TODO add your handling code here:
         txtImprimir.setText("");
@@ -425,6 +431,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         primero = true;
     }//GEN-LAST:event_btnCeActionPerformed
 
+    /**
+     * btnCActionPerformed
+     * Evento de accion para borrar el numero actual
+     * @param evt evento al hacer clic
+     */
     private void btnCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCActionPerformed
         // TODO add your handling code here:
         txtResultado.setText("");
@@ -434,61 +445,121 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtResultadoActionPerformed
 
+    /**
+     * btnNum0ActionPerformed
+     * Evento de accion para escribir el cero
+     * @param evt evento al hacer clic
+     */
     private void btnNum0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum0ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "0");
     }//GEN-LAST:event_btnNum0ActionPerformed
 
+    /**
+     * btnNum1ActionPerformed
+     * Evento de accion para escribir el uno
+     * @param evt evento al hacer clic
+     */
     private void btnNum1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum1ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "1");
     }//GEN-LAST:event_btnNum1ActionPerformed
 
+    /**
+     * btnNum2ActionPerformed
+     * Evento de accion para escribir el dos
+     * @param evt evento al hacer clic
+     */
     private void btnNum2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum2ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "2");
     }//GEN-LAST:event_btnNum2ActionPerformed
 
+    /**
+     * btnNum3ActionPerformed
+     * Evento de accion para escribir el tres
+     * @param evt evento al hacer clic
+     */
     private void btnNum3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum3ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "3");
     }//GEN-LAST:event_btnNum3ActionPerformed
 
+    /**
+     * btnNum4ActionPerformed
+     * Evento de accion para escribir el cuatro
+     * @param evt evento al hacer clic
+     */
     private void btnNum4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum4ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "4");
     }//GEN-LAST:event_btnNum4ActionPerformed
 
+    /**
+     * btnNum5ActionPerformed
+     * Evento de accion para escribir el cinco
+     * @param evt evento al hacer clic
+     */
     private void btnNum5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum5ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "5");
     }//GEN-LAST:event_btnNum5ActionPerformed
 
+    /**
+     * btnNum6ActionPerformed
+     * Evento de accion para escribir el seis
+     * @param evt evento al hacer clic
+     */
     private void btnNum6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum6ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "6");
     }//GEN-LAST:event_btnNum6ActionPerformed
 
+    /**
+     * btnNum7ActionPerformed
+     * Evento de accion para escribir el siete
+     * @param evt evento al hacer clic
+     */
     private void btnNum7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum7ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "7");
     }//GEN-LAST:event_btnNum7ActionPerformed
 
+    /**
+     * btnNum8ActionPerformed
+     * Evento de accion para escribir el ocho
+     * @param evt evento al hacer clic
+     */
     private void btnNum8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum8ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "8");
     }//GEN-LAST:event_btnNum8ActionPerformed
 
+    /**
+     * btnNum9ActionPerformed
+     * Evento de accion para escribir el nueve
+     * @param evt evento al hacer clic
+     */
     private void btnNum9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNum9ActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + "9");
     }//GEN-LAST:event_btnNum9ActionPerformed
 
+    /**
+     * btnPuntoActionPerformed
+     * Evento de accion para escribir el punto
+     * @param evt evento al hacer clic
+     */
     private void btnPuntoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPuntoActionPerformed
         // TODO add your handling code here:
         txtResultado.setText(txtResultado.getText() + ".");
     }//GEN-LAST:event_btnPuntoActionPerformed
 
+    /**
+     * btnBorrarNumActionPerformed
+     * Evento de accion para borrar un numero
+     * @param evt evento al hacer clic
+     */
     private void btnBorrarNumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBorrarNumActionPerformed
         // TODO add your handling code here:
         try{
@@ -498,6 +569,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnBorrarNumActionPerformed
 
+    /**
+     * btnNegativoActionPerformed
+     * Evento de accion para volver negativo o positivo un numero
+     * @param evt evento al hacer clic
+     */
     private void btnNegativoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNegativoActionPerformed
         // TODO add your handling code here:
         try{
@@ -511,6 +587,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnNegativoActionPerformed
 
+    /**
+     * btnDividirActionPerformed
+     * Evento de accion para dividir dos numeros
+     * @param evt evento al hacer clic
+     */
     private void btnDividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDividirActionPerformed
         // TODO add your handling code here:
         try{
@@ -533,6 +614,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnDividirActionPerformed
 
+    /**
+     * btnMultiplicarActionPerformed
+     * Evento de accion para multiplicar dos numeros
+     * @param evt evento al hacer clic
+     */
     private void btnMultiplicarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultiplicarActionPerformed
         // TODO add your handling code here:
         try{
@@ -555,6 +641,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnMultiplicarActionPerformed
 
+    /**
+     * btnRestarActionPerformed
+     * Evento de accion para restar dos numeros
+     * @param evt evento al hacer clic
+     */
     private void btnRestaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRestaActionPerformed
         // TODO add your handling code here:
         try{
@@ -577,6 +668,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnRestaActionPerformed
 
+    /**
+     * btnSumaActionPerformed
+     * Evento de accion para sumar dos numeros
+     * @param evt evento al hacer clic
+     */
     private void btnSumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSumaActionPerformed
         // TODO add your handling code here:
         try{
@@ -599,6 +695,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnSumaActionPerformed
 
+    /**
+     * btnRaizActionPerformed
+     * Evento de accion para sacar raiz de un numero
+     * @param evt evento al hacer clic
+     */
     private void btnRaizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRaizActionPerformed
         // TODO add your handling code here:
         try{
@@ -611,6 +712,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnRaizActionPerformed
 
+    /**
+     * btnPorcentajeActionPerformed
+     * Evento de accion para sacar porcentaje de un numero
+     * @param evt evento al hacer clic
+     */
     private void btnPorcentajeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPorcentajeActionPerformed
         // TODO add your handling code here:
         try{
@@ -623,6 +729,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     }//GEN-LAST:event_btnPorcentajeActionPerformed
 
+    /**
+     * btnSobreActionPerformed
+     * Evento de accion para invertir un numero
+     * @param evt evento al hacer clic
+     */
     private void btnSobreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSobreActionPerformed
         // TODO add your handling code here:
         try{
@@ -635,6 +746,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnSobreActionPerformed
 
+    /**
+     * btnIgualActionPerformed
+     * Evento de accion para sacar resultado
+     * @param evt evento al hacer clic
+     */
     private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
         // TODO add your handling code here:
         try{
